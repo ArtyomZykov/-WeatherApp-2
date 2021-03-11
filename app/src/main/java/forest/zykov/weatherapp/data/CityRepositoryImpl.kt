@@ -10,4 +10,8 @@ class CityRepositoryImpl(private val cityDataSource: CityDataSource) : CityRepos
 
     override fun getCities(): Single<Response> = cityDataSource.getCities()
 
+    override fun setCity(city: City) {
+        TODO("Not yet implemented")
+    }
+
 }

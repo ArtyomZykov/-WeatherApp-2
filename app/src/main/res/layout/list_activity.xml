@@ -13,8 +13,6 @@
         android:layout_height="75dp"
         android:background="#F1F1F1"
         android:topRightRadius="100dp">
-
-<<<<<<< HEAD
         <EditText
             android:id="@+id/search_edit_text"
             android:layout_width="wrap_content"
@@ -36,7 +34,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/search_edit_text" />
 
-=======
+
         <SearchView
             android:id="@+id/searchView"
             android:layout_width="398dp"
@@ -49,7 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.481" />
->>>>>>> cf7d4067aee8b2e1b85de5159609e20f7b8cdc58
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView

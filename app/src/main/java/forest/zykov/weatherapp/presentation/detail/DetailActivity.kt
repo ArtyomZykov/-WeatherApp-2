@@ -50,8 +50,7 @@ class DetailActivity : AppCompatActivity() {
 
  */
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-=======
->>>>>>> cf7d4067aee8b2e1b85de5159609e20f7b8cdc58
+
     private lateinit var countryNameText: TextView
     private lateinit var timezoneText: TextView
     private lateinit var cityNameText: TextView
@@ -75,7 +74,7 @@ class DetailActivity : AppCompatActivity() {
 
 
     fun bindCity(city: City) {
-<<<<<<< HEAD
+
 /*
         nameText.text = getString(R.string.city_format, city.name)
         val tempFar = (city.main.temp - 273).toInt()

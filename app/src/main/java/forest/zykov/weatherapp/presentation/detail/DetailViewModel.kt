@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import forest.zykov.weatherapp.domain.City
 import forest.zykov.weatherapp.domain.GetCityUseCase
-import forest.zykov.weatherapp.domain.SetCityUseCase
 import forest.zykov.weatherapp.presentation.LiveEvent
 
 class DetailViewModel(
